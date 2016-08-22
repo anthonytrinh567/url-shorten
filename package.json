@@ -1,0 +1,21 @@
+{
+  "name": "url",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Url Shortener Microservice",
+  "author": "Anthony Trinh <anthonytrinh56721@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "mongoose": "^4.5.9",
+    "morgan": "~1.7.0",
+    "pug": "^2.0.0-beta5",
+    "shortid": "^2.2.6"
+  }
+}
